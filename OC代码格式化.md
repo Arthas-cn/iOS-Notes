@@ -1,8 +1,10 @@
-#OC代码格式化
+# OC代码格式化
 参考Google规范：
+
 https://google.github.io/styleguide/objcguide.html
 
 代码Clang-format：
+
 https://clang.llvm.org/docs/ClangFormatStyleOptions.html
 
 ##注意：该插件不能识别中文目录
