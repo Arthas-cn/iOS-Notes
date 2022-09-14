@@ -16,6 +16,102 @@
 2、在项目（这里的项目是我们开发的工程项目，例如Wocute、CHeart）的根目录，执行 setup-repo.sh 脚本。
 在命令窗口cd到我们项目的根目录，把setup-repo.sh文件拖进窗口，按回车即可。
 
+3、复制以下内容覆盖`.clang-format`文件
+```
+---
+# `Language` intentionally left blank to apply these rules
+# as the default formatting options.
+# This addresses an issue which can occur when clang-format
+# decides a header looks more like c++ than objc.
+
+# BasedOnStyle:  Google
+AccessModifierOffset: -1
+ConstructorInitializerIndentWidth: 4
+SortIncludes: false
+
+AlignAfterOpenBracket: true
+AlignEscapedNewlinesLeft: true
+AlignOperands: false
+AlignTrailingComments: true
+
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortLoopsOnASingleLine: true
+
+AlwaysBreakAfterDefinitionReturnType: false
+AlwaysBreakTemplateDeclarations: false
+AlwaysBreakBeforeMultilineStrings: false
+
+BreakBeforeBinaryOperators: None
+BreakBeforeTernaryOperators: false
+BreakConstructorInitializersBeforeComma: false
+
+BinPackArguments: true
+BinPackParameters: true
+ColumnLimit: 0
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+DerivePointerAlignment: false
+ExperimentalAutoDetectBinPacking: false
+IndentCaseLabels: true
+IndentWrappedFunctionNames: false
+IndentFunctionDeclarationAfterType: false
+MaxEmptyLinesToKeep: 2
+KeepEmptyLinesAtTheStartOfBlocks: false
+NamespaceIndentation: Inner
+ObjCBlockIndentWidth: 4
+ObjCBreakBeforeNestedBlockParam: false
+ObjCSpaceAfterProperty: true
+ObjCSpaceBeforeProtocolList: true
+PenaltyBreakBeforeFirstCallParameter: 10000
+PenaltyBreakComment: 300
+PenaltyBreakString: 1000
+PenaltyBreakFirstLessLess: 120
+PenaltyExcessCharacter: 1000000
+PenaltyReturnTypeOnItsOwnLine: 200
+PointerAlignment: Right
+SpacesBeforeTrailingComments: 1
+Cpp11BracedListStyle: true
+Standard: Auto
+IndentWidth: 4
+TabWidth: 8
+UseTab: Never
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterClass: true
+    AfterControlStatement: false
+    AfterEnum: false
+    AfterFunction: false
+    AfterNamespace: true
+    AfterObjCDeclaration: true
+    AfterStruct: false
+    AfterUnion: false
+    BeforeCatch: false
+    BeforeElse: false
+    IndentBraces: false
+    SplitEmptyFunction: false
+
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpacesInAngles: false
+SpaceInEmptyParentheses: false
+SpacesInCStyleCastParentheses: false
+SpaceAfterCStyleCast: false
+SpacesInContainerLiterals: true
+SpaceBeforeAssignmentOperators: true
+
+ContinuationIndentWidth: 4
+CommentPragmas: "^ IWYU pragma:"
+ForEachMacros: [foreach, Q_FOREACH, BOOST_FOREACH]
+SpaceBeforeParens: ControlStatements
+DisableFormat: false
+---
+
+
+```
+
 ## 忽略配置：
 1. 忽略某个目录，在项目的根目录打开 .formatting-directory-ignore 文件，添加以项目为相对路径即可
 2. 忽略某个文件，只需在需要忽略的文件的头部，注意是最头部。
