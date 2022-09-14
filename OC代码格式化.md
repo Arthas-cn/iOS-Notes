@@ -30,13 +30,9 @@
 
 
 ## 代码格式化快捷命令
-1、进入用户根目录
-cd ~2、打开.zshrc文件
-```
-open .zshrc
-```
-
-3、添加以下内容，注意要将`/Users/xxx/xxx/spacecommander-master`替换成你本地的目录
+1. 进入用户根目录 `cd ~`
+2. 打开.zshrc文件 `open .zshrc`
+3. 添加以下内容，注意要将`/Users/xxx/xxx/spacecommander-master`替换成你本地的目录
 ```
 alias ocfmstage="/Users/xxx/xxx/spacecommander-master/format-objc-files.sh -s"
 alias ocfmfile="/Users/xxx/xxx/spacecommander-master/format-objc-file.sh"
