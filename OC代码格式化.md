@@ -1,15 +1,9 @@
 # OC代码格式化
-参考Google规范：
++ 参考代码编写[Google规范]([http://jianshu.com](https://google.github.io/styleguide/objcguide.html))
++ 代码Clang-format[插件](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
 
-https://google.github.io/styleguide/objcguide.html
-
-代码Clang-format：
-
-https://clang.llvm.org/docs/ClangFormatStyleOptions.html
-
-##注意：该插件不能识别中文目录
-
-安装教程：
+## 安装教程：
+> 注意：该插件不能识别中文目录
 1、下载之后，在 目录，可以看到有以下文件：
 
 + setup-repo.sh 初始化
@@ -20,7 +14,7 @@ https://clang.llvm.org/docs/ClangFormatStyleOptions.html
 2、在项目（这里的项目是我们开发的工程项目，例如Wocute、CHeart）的根目录，执行 setup-repo.sh 脚本。
 在命令窗口cd到我们项目的根目录，把setup-repo.sh文件拖进窗口，按回车即可。
 
-忽略配置：
+## 忽略配置：
 1、忽略某个目录，在项目的根目录打开 .formatting-directory-ignore 文件，添加以项目为相对路径即可
 2、忽略某个文件，只需在需要忽略的文件的头部，注意是最头部。
 添加 #pragma Formatter Exempt 或者// MARK: Formatter Exempt 即可
@@ -34,7 +28,7 @@ https://clang.llvm.org/docs/ClangFormatStyleOptions.html
 ```
 
 
-代码格式化快捷命令
+## 代码格式化快捷命令
 1、进入用户根目录
 cd ~2、打开.zshrc文件
 ```
