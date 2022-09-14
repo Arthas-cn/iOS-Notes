@@ -137,9 +137,9 @@ alias ocfmall="/Users/xxx/xxx/spacecommander-master/format-objc-files-in-repo.sh
 ```
 4、重新打开terminal命令窗口 输入oc 再按Tab键即可看到提示
 
-ocfmstage 命令是 格式化暂存文件
-ocfmfile 命令是 格式化单个文件
-ocfmall  命令是 格式化所有文件
++ ocfmstage 命令是 格式化暂存文件
++ ocfmfile 命令是 格式化单个文件
++ ocfmall  命令是 格式化所有文件
 
 5、如果 不想要格式化文件 需要在git commit 后面加上 --no-verify 例如：
 `git commit --no-verify -m "test"` 
