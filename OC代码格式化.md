@@ -1,4 +1,4 @@
-# OC代码格式化
+## OC代码格式化
 + 参考代码编写[Google规范](https://google.github.io/styleguide/objcguide.html)
 + 代码Clang-format[插件](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
 
