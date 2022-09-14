@@ -16,10 +16,10 @@
 在命令窗口cd到我们项目的根目录，把setup-repo.sh文件拖进窗口，按回车即可。
 
 ## 忽略配置：
-1、忽略某个目录，在项目的根目录打开 .formatting-directory-ignore 文件，添加以项目为相对路径即可
-2、忽略某个文件，只需在需要忽略的文件的头部，注意是最头部。
+1. 忽略某个目录，在项目的根目录打开 .formatting-directory-ignore 文件，添加以项目为相对路径即可
+2. 忽略某个文件，只需在需要忽略的文件的头部，注意是最头部。
 添加 #pragma Formatter Exempt 或者// MARK: Formatter Exempt 即可
-3、忽略某段代码
+3. 忽略某段代码
 ```
 // clang-format off 
 
