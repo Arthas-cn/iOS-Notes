@@ -1,9 +1,10 @@
 # OC代码格式化
-+ 参考代码编写[Google规范]([http://jianshu.com](https://google.github.io/styleguide/objcguide.html))
++ 参考代码编写[Google规范](http://jianshu.com](https://google.github.io/styleguide/objcguide.html)
 + 代码Clang-format[插件](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
 
 ## 安装教程：
 > 注意：该插件不能识别中文目录
+
 1、下载之后，在 目录，可以看到有以下文件：
 
 + setup-repo.sh 初始化
