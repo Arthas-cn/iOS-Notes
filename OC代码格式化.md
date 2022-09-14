@@ -1,4 +1,4 @@
-#OC格式化
+#OC代码格式化
 参考Google规范：
 https://google.github.io/styleguide/objcguide.html
 
@@ -9,10 +9,11 @@ https://clang.llvm.org/docs/ClangFormatStyleOptions.html
 
 安装教程：
 1、下载之后，在 目录，可以看到有以下文件：
-setup-repo.sh 初始化
-format-objc-file.sh 格式化单个暂存文件
-format-objc-files.sh 格式化所有暂存文件
-format-objc-files-in-repo.sh 格式化整个仓库
+
++ setup-repo.sh 初始化
++ format-objc-file.sh 格式化单个暂存文件
++ format-objc-files.sh 格式化所有暂存文件
++ format-objc-files-in-repo.sh 格式化整个仓库
 
 2、在项目（这里的项目是我们开发的工程项目，例如Wocute、CHeart）的根目录，执行 setup-repo.sh 脚本。
 在命令窗口cd到我们项目的根目录，把setup-repo.sh文件拖进窗口，按回车即可。
