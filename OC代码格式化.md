@@ -9,7 +9,7 @@
 1、下载之后，在 目录，可以看到有以下文件：
 
 + setup-repo.sh 初始化
-+ format-objc-file.sh 格式化单个暂存文件
++ format-objc-file.sh 格式化单个文件
 + format-objc-files.sh 格式化所有暂存文件
 + format-objc-files-in-repo.sh 格式化整个仓库
 
