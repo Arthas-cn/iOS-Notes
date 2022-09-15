@@ -141,5 +141,7 @@ alias ocfmall="/Users/xxx/xxx/spacecommander-master/format-objc-files-in-repo.sh
 + ocfmfile 命令是 格式化单个文件
 + ocfmall  命令是 格式化所有文件
 
+> 注意这三个命令一定要在项目的根目录执行，否则会报错找不到repo
+
 5、如果 不想要格式化文件 需要在git commit 后面加上 --no-verify 例如：
 `git commit --no-verify -m "test"` 
